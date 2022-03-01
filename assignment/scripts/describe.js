@@ -142,12 +142,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//FIX - colorOne should be set to 'blue'
+//let colorOne = 'blue';
 let colorOne = 'red';
+//FIX - colorTwo should be set to 'red'.
+//let colorTwo = 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //FIX - colorTwo also needs to be set to 'purple'
+  //colorTwo = 'purple';
 }
 */
 
@@ -157,8 +164,12 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//FIX - I'm guessing time might change at some point, and if so, we don't want this to be a constant.
+//let time = 4;
 const time = 4;
 
+//FIX - current conditional is checking whether EITHER statement is true, but we want both to be true for the code to run.
+// if (temp > 39 && time >= 4) { do the thing }
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -172,8 +183,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-//FIX - 
-
+//FIX - current conditions are checking if minAge is less than or equal to age, and if so, it logs 'no entry', which keeps everyone 21 and older out of the clurb!
+//if(minAge > age) { keep the rest the same }
 if(minAge <= age) {
   console.log('no entry');
 } else {

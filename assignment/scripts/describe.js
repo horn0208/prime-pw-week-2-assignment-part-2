@@ -75,9 +75,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Declare a variable isStudent and set it to the boolean true.
+// Declare a variable age and set it to the number 34.
+// Declare a variable zip and set it to the number 55407.
+// Create a conditional statement that checks for two conditions: isStudent is true and zip is greater than 8000.
+// If both above conditions are met, the code block will console.log 'You're a student on the West Coast!'. 
+// isStudent is true, but zip is 55407 so the second condition isn't met and this block doesn't run.
+// The next set of conditions checks that either isStudent is false or age is less than 30.
+// since neither condition is met (isStudent is true and age is 34 which is greater than 30) the next block of code is skipped, which would console.log 'What are your hobbies?'.
+// The next condition checks only if isStudent is true. In our case, it is, so we console.log 'Welcome to Prime!'.
+// If none of the above conditions were met, we would log 'How about the weather?' to the console.
 //
 
 //CODE
@@ -164,6 +171,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - 
 
 if(minAge <= age) {
   console.log('no entry');

@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called name and set it equal to 'Dane'.
+// We make a conditional statement that checks if the name exactly matches 'Mary'.
+// If name is Mary, the code block will log 'Hi, Mary' to the console. Since the name is Dane, it goes on to the next block without logging anything to console yet.
+// If name is not Mary (it's not), we console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declare a variable called secret without a value assigned.
+// Declare a variable called code and set it equal to the number 123.
+// Create a conditional statement that checks if code exactly matches 123.
+// If it does match (and it does), a code block runs that assigns the string 'super' to variable secret and multiplies the value of code (123) by 2.
+// Now the variable called code is set to 246.
+// Create a new conditional statement that checks if the value assigned to the variable code is greater than 250.
+// If the value of code is greater than 250, a code block would run that updates the value of the variable secret to the string 'duper'.
+// Code's value is 246, which is less than 250, so the variable secret stays set to 'super'.
+// We console.log the value of secret, which is 'super'
 
 //CODE
 /*
